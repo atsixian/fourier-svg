@@ -24,6 +24,7 @@
     ]
   },
   "dependencies": {
+    "p5": "^1.0.0",
     "svg-path-properties": "^1.0.2"
   }
 }
