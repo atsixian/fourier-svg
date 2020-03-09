@@ -1,0 +1,29 @@
+{
+  "name": "fourier-svg",
+  "version": "1.0.0",
+  "description": "Draw your SVG with Fourier Transform",
+  "main": "/lib/index.js",
+  "repository": "https://github.com/Deerhound579/fourier-svg",
+  "author": "Sixian (https://github.com/Deerhound579)",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "rollup": "^2.0.2",
+    "rollup-plugin-babel": "^4.4.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepack": "rollup -c",
+    "prepublish": "rollup -c"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "dependencies": {
+    "svg-path-properties": "^1.0.2"
+  }
+}
