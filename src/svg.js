@@ -41,4 +41,4 @@ export function bdBox(points) {
 }
 
 const authorPoints = getPoints(me, 2000)
-export const author = {points: authorPoints, bdbox: bdBox(authorpoints)};
+export const author = {points: authorPoints, bdbox: bdBox(authorPoints)};
